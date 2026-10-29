@@ -43,7 +43,7 @@ p{
 
 .room {
     width: 1000px;
-    height: 800px;
+    height: 600px;
     background-color: #e8c6ae;
     border: 6px double #55382F;
     margin: 100px auto
@@ -56,109 +56,108 @@ p{
 }
 
 .bed {
-    width: 130px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     background-color: #d59b7a;
-    border: 4px solid #55382F;
+    border: 6px solid #7a5246;
     position: absolute;
     left: 70px;
-    top: 30px;
-    box-shadow: 6px 6px 0 #55382F;
+    top: 70px;
     border-radius: 0;
     clip-path: polygon(
-        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
-        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
-        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
-        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
     );
 
 }
 
 .pillow1{
-    width: 50px;
+    width: 60px;
     height: 30px;
     background-color: #fff8ef;
-    border: 3px solid #55382F;
+    border: 4px solid  #7a5246;
     position: absolute;
     top: 10px;
     left: 7px;
     clip-path: polygon(
-        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
-        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
-        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
-        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
     );
 }
 
 .pillow2{
-    width: 50px;
+    width: 60px;
     height: 30px;
     background-color: #fff8ef;
-    border: 3px solid #55382F;
+    border: 4px solid  #7a5246;
     position: absolute;
     top: 10px;
-    left: 70px;
+    left: 80px;
     clip-path: polygon(
-        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
-        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
-        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
-        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
     );
 }
 .lamp1{
     width: 50px;
     height: 30px;
     background-color:#d59b7a;
-    border: 3px solid #55382F;
+    border: 3px solid #7a5246;
     position: absolute;
-    top: 30px;
+    top: 70px;
     left: 11px;
     clip-path: polygon(
-        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
-        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
-        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
-        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
     );
 }
 .lamp2{
     width: 50px;
     height: 30px;
     background-color:#d59b7a;
-    border: 3px solid #55382F;
+    border: 3px solid #7a5246;
     position: absolute;
-    top: 30px;
-    left: 210px;
+    top: 70px;
+    left: 245px;
     clip-path: polygon(
-        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
-        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
-        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
-        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
     );
 }
 
 .blanket {
-    width: 130px;
-    height: 95px;
+    width: 160px;
+    height: 105px;
     background-color: #d76b45;
-    border-top: 3px solid #55382F;
+    border-top: 3px solid #7a5246;
     position: absolute;
     bottom: 0;
     left: 0;
     transition: 0.2s;
     /* this make everything look piixalted*/
     clip-path: polygon(
-        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
-        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
-        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
-        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
-    );    
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );  
 }
 
 .blanket:hover{
-    height:75px
+    height:85px
 }
 
-.gups {
+.cozy {
     width: 110px;
     position: absolute;
     left: 130px;
@@ -182,7 +181,8 @@ p{
         calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
         100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
         8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
-    );     
+    );
+ 
 }
 
 .c2{
@@ -197,7 +197,8 @@ p{
         calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
         100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
         8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
-    ); 
+    );
+
 
 }
 
@@ -207,4 +208,220 @@ p{
 
 .c1:hover{
     background-color: #fff8ef;
+}
+
+
+
+
+.table {
+    width: 130px;
+    height: 65px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 820px;
+    top: 150px;
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+
+
+.chair {
+    width: 65px;
+    height: 65px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 855px;
+    top: 230px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+
+
+.book {
+    width: 40px;
+    height: 30px;
+    background-color: #eae6e5;
+    border: 3px solid #3c2822;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:10px
+}
+
+.win{
+    width:120px;
+    height:90px;
+    background-color: rgb(137, 191, 214);
+    position: absolute;
+    top:20px;
+    left:550px;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    ); 
+    border: 5px solid #7a5246; 
+}
+
+.parda1 {
+    width: 48px;
+    height: 102px;
+    position: relative;
+    top: 20px;
+    left: 550px;
+    border: 4px solid #55382F;
+    background: repeating-linear-gradient(90deg,
+        #c58774 0 6px,
+        #8f5c4c 6px 12px);  
+   clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+     
+}
+
+.parda1:hover{
+    width:28px
+}
+
+.parda2 {
+    width: 48px;
+    height: 102px;
+    position: relative;
+    top:-90px;
+    left: 627px;
+    border: 4px solid #55382F;
+    background: repeating-linear-gradient(90deg,
+        #c58774 0 6px,
+        #8f5c4c 6px 12px);  
+   clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+     
+}
+
+.parda2:hover {
+    width: 28px;
+    left: 647px;
+}
+
+.cloud1{
+    width:30px;
+    height:15px;
+    border-radius:10px ;
+    background-color: rgb(252, 241, 241);
+    margin-left:19px;
+    margin-top:6px;
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
+        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+    );
+
+}
+
+.cloud2{
+    width:30px;
+    height:15px;
+    border-radius:10px ;
+    background-color: rgb(252, 241, 241);
+    margin-left:40px;
+    margin-top:6px;
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
+        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+    );
+
+}
+
+.cloud3{
+    width:30px;
+    height:15px;
+    border-radius:10px ;
+    background-color: rgb(252, 241, 241);
+    margin-left:75px;
+    margin-top:6px;
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
+        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+    );
+
 }
