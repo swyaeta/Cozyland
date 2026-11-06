@@ -44,7 +44,7 @@ p{
 .room {
     width: 1000px;
     height: 600px;
-    background-color: #e8c6ae;
+    background-color: #fee9da;
     border: 6px double #55382F;
     margin: 100px auto
 }
@@ -58,7 +58,7 @@ p{
 .bed {
     width: 160px;
     height: 160px;
-    background-color: #d59b7a;
+    background-color: #f6caa5;
     border: 6px solid #7a5246;
     position: absolute;
     left: 70px;
@@ -107,7 +107,7 @@ p{
 .lamp1{
     width: 50px;
     height: 30px;
-    background-color:#d59b7a;
+    background-color:#f6caa5;
     border: 3px solid #7a5246;
     position: absolute;
     top: 70px;
@@ -122,7 +122,7 @@ p{
 .lamp2{
     width: 50px;
     height: 30px;
-    background-color:#d59b7a;
+    background-color:#f6caa5;
     border: 3px solid #7a5246;
     position: absolute;
     top: 70px;
@@ -138,7 +138,7 @@ p{
 .blanket {
     width: 160px;
     height: 105px;
-    background-color: #d76b45;
+    background-color: #f1dc8e;
     border-top: 3px solid #7a5246;
     position: absolute;
     bottom: 0;
@@ -157,17 +157,7 @@ p{
     height:85px
 }
 
-.cozy {
-    width: 110px;
-    position: absolute;
-    left: 130px;
-    bottom: 45px;      
-}
 
-.happy,
-.sad {
-    display: none;
-}
 
 .c1{
     width:24px;
@@ -246,7 +236,7 @@ p{
 .chair {
     width: 65px;
     height: 65px;
-    background-color: #D59B7A;
+    background-color: #f6caa5;
     border: 5px solid #7a5246;
     position: absolute;
     left: 855px;
@@ -269,9 +259,12 @@ p{
         4px 100%, 4px 35px,
         0 35px
     );
+    transition:0.6s
 }
 
-
+.chair:hover{
+    top:250px
+}
 
 .book {
     width: 40px;
@@ -295,6 +288,9 @@ p{
     font-size:10px
 }
 
+.book:hover{
+    left:22px
+}
 .win{
     width:120px;
     height:90px;
@@ -319,8 +315,8 @@ p{
     left: 550px;
     border: 4px solid #55382F;
     background: repeating-linear-gradient(90deg,
-        #c58774 0 6px,
-        #8f5c4c 6px 12px);  
+        #dc9a87 0 6px,
+        #9c6758 6px 12px);  
    clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0,
@@ -337,7 +333,7 @@ p{
         4px calc(100% - 4px), 4px calc(100% - 8px),
         0 calc(100% - 8px)
     );
-     
+    transition:0.3s
 }
 
 .parda1:hover{
@@ -352,8 +348,8 @@ p{
     left: 627px;
     border: 4px solid #55382F;
     background: repeating-linear-gradient(90deg,
-        #c58774 0 6px,
-        #8f5c4c 6px 12px);  
+        #dc9a87 0 6px,
+        #9c6758 6px 12px);   
    clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0,
@@ -370,7 +366,7 @@ p{
         4px calc(100% - 4px), 4px calc(100% - 8px),
         0 calc(100% - 8px)
     );
-     
+    transition:0.3s
 }
 
 .parda2:hover {
@@ -424,4 +420,91 @@ p{
         8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
     );
 
+}
+
+.bowl{
+    width:60px;
+    height:40px;
+    background-color:white; 
+    position: absolute;
+    top:540px;
+    left:800px;
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
+        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+    );  
+    border-radius: 39px;
+    font-size:14px
+}
+
+.top{
+    width:60px;
+    height:80px;
+    background-color: #7d5259;
+
+}
+
+.bowl:hover{
+    top:535px
+}
+
+
+.carpet{
+    width:350px;
+    height:260px;
+    background: repeating-linear-gradient(90deg,
+        #eceed5 0 6px,
+        #d2d1a9 6px 12px);  
+
+    border-radius:250px;  
+    position: absolute;
+    top:54%;
+    left:20%;
+    border:4px solid #89a68f;
+}
+
+.toy1{
+    font-size:25px
+}
+
+.toy2{
+    font-size:25px
+}
+
+.dobed{
+    width:100px;
+    height:80px;
+    background-color: #f9d1d8;
+    border:4px solid rgb(146, 107, 107);
+    border-radius:10px;
+    margin-left:20px;
+   clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
+        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)  
+
+   );    
+}
+
+.pilo1{
+    width:30px;
+    height:30px;
+    background-color: white;
+    margin-top:30px;
+    border-radius:10px;
+    border:2px solid rgb(152, 117, 117)
+}
+
+.stack{
+    width:65px;
+    height: 90px;
+    background-color:#D59B7A;
+    border:4px solid rgb(131, 97, 97);
+    position:absolute;
+    top:60%;
+    left:70%;
+    border-radius:15px
 }
