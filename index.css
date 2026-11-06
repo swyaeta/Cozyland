@@ -1,26 +1,25 @@
-
-
+/* this is the main page */
 body{
     text-align:center;
     background-color: #ceebfa;
     font-family: 'Silkscreen', sans-serif;    
 }
 
+/* this is my main heading */
 h1{
    margin-top:50px;
    color: #633C2B;
-   font-size:60px
-
+   font-size:60px;
 }
 
+/* this is the paragraph below the heading */
 p{
    color: #D76B45;
    font-size: 20px;
-    margin-top:-20px;
-
+   margin-top:-20px;
 }
 
-
+/* this is my play button */
 .play{
     width:150px;
     height:70px;
@@ -39,20 +38,22 @@ p{
     font-family: 'Silkscreen', sans-serif;     
 }
 
+/* this is the main room */
 .room {
     width: 1000px;
     height: 630px;
     background-color: #fee9da;
     border: 6px double #55382F;
-    margin: 100px auto
+    margin: 100px auto;
 }
 
-
+/* this keeps all the furniture inside the room */
 .room {
     position: relative;
     overflow: hidden;
 }
 
+/* this is the dog's bed */
 .bed {
     width: 160px;
     height: 160px;
@@ -62,15 +63,16 @@ p{
     left: 70px;
     top: 70px;
     border-radius: 0;
+    /* this make the bed look pixelated */
     clip-path: polygon(
       0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
       calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
       100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
       12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
     );
-
 }
 
+/* this is the first pillow */
 .pillow1{
     width: 60px;
     height: 30px;
@@ -79,6 +81,7 @@ p{
     position: absolute;
     top: 10px;
     left: 7px;
+    /* this make the pillow look pixelated */
     clip-path: polygon(
       0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
       calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
@@ -87,6 +90,7 @@ p{
     );
 }
 
+/* this is the second pillow */
 .pillow2{
     width: 60px;
     height: 30px;
@@ -95,36 +99,7 @@ p{
     position: absolute;
     top: 10px;
     left: 80px;
-    clip-path: polygon(
-      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
-      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
-      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
-      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
-    );
-}
-.lamp1{
-    width: 50px;
-    height: 30px;
-    background-color:#f6caa5;
-    border: 3px solid #7a5246;
-    position: absolute;
-    top: 70px;
-    left: 11px;
-    clip-path: polygon(
-      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
-      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
-      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
-      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
-    );
-}
-.lamp2{
-    width: 50px;
-    height: 30px;
-    background-color:#f6caa5;
-    border: 3px solid #7a5246;
-    position: absolute;
-    top: 70px;
-    left: 245px;
+    /* this make the pillow look pixelated */
     clip-path: polygon(
       0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
       calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
@@ -133,6 +108,43 @@ p{
     );
 }
 
+/* this is the first lamp */
+.lamp1{
+    width: 50px;
+    height: 30px;
+    background-color:#f6caa5;
+    border: 3px solid #7a5246;
+    position: absolute;
+    top: 70px;
+    left: 11px;
+    /* this make the lamp look pixelated */
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+}
+
+/* this is the second lamp */
+.lamp2{
+    width: 50px;
+    height: 30px;
+    background-color:#f6caa5;
+    border: 3px solid #7a5246;
+    position: absolute;
+    top: 70px;
+    left: 245px;
+    /* this make the lamp look pixelated */
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+}
+
+/* this is the blanket on the bed */
 .blanket {
     width: 160px;
     height: 105px;
@@ -151,56 +163,56 @@ p{
     );  
 }
 
+/* this makes the blanket smaller when i hover */
 .blanket:hover{
-    height:85px
+    height:85px;
 }
 
-
-
+/* this is the first eye */
 .c1{
     width:24px;
     height:15px;
-    border-radius:10px ;
+    border-radius:10px;
     background-color: black;
     margin-left:14px;
     margin-top:6px;
+    /* this make the eye look pixelated */
     clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
         100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
         8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
     );
- 
 }
 
+/* this is the second eye */
 .c2{
     width:24px;
     height:15px;
-    border-radius:10px ;
+    border-radius:10px;
     background-color: black;
     margin-left:14px;
     margin-top:6px;
+    /* this make the eye look pixelated */
     clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
         100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
         8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
     );
-
-
 }
 
+/* this changes the eye color when i hover */
 .c2:hover{
     background-color: #fff8ef;
 }
 
+/* this changes the other eye color when i hover */
 .c1:hover{
     background-color: #fff8ef;
 }
 
-
-
-
+/* this is the table */
 .table {
     width: 130px;
     height: 65px;
@@ -210,7 +222,7 @@ p{
     left: 820px;
     top: 150px;
 
-
+    /* this make the table look pixelated */
     clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0,
@@ -229,8 +241,7 @@ p{
     );
 }
 
-
-
+/* this is the chair */
 .chair {
     width: 65px;
     height: 65px;
@@ -240,6 +251,7 @@ p{
     left: 855px;
     top: 230px;
 
+    /* this make the chair look pixelated */
     clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0,
@@ -257,13 +269,15 @@ p{
         4px 100%, 4px 35px,
         0 35px
     );
-    transition:0.6s
+    transition:0.6s;
 }
 
+/* this moves the chair down when i hover */
 .chair:hover{
-    top:250px
+    top:250px;
 }
 
+/* this is the book on the table */
 .book {
     width: 40px;
     height: 30px;
@@ -273,6 +287,7 @@ p{
     left: 20px;
     top: 10px;
 
+    /* this make the book look pixelated */
     clip-path: polygon(
         0 4px, 4px 4px, 4px 0,
         calc(100% - 4px) 0,
@@ -283,12 +298,15 @@ p{
         4px 100%, 4px calc(100% - 4px),
         0 calc(100% - 4px)
     );
-    font-size:10px
+    font-size:10px;
 }
 
+/* this moves the book when i hover */
 .book:hover{
-    left:22px
+    left:22px;
 }
+
+/* this is the window */
 .win{
     width:120px;
     height:90px;
@@ -296,6 +314,7 @@ p{
     position: absolute;
     top:20px;
     left:550px;
+    /* this make the window look pixelated */
     clip-path: polygon(
       0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
       calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
@@ -305,6 +324,7 @@ p{
     border: 5px solid #7a5246; 
 }
 
+/* this is the first curtain */
 .parda1 {
     width: 48px;
     height: 102px;
@@ -315,6 +335,7 @@ p{
     background: repeating-linear-gradient(90deg,
         #dc9a87 0 6px,
         #9c6758 6px 12px);  
+   /* this make the curtain look pixelated */
    clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0,
@@ -331,13 +352,15 @@ p{
         4px calc(100% - 4px), 4px calc(100% - 8px),
         0 calc(100% - 8px)
     );
-    transition:0.3s
+    transition:0.3s;
 }
 
+/* this opens the first curtain */
 .parda1:hover{
-    width:28px
+    width:28px;
 }
 
+/* this is the second curtain */
 .parda2 {
     width: 48px;
     height: 102px;
@@ -348,6 +371,7 @@ p{
     background: repeating-linear-gradient(90deg,
         #dc9a87 0 6px,
         #9c6758 6px 12px);   
+   /* this make the curtain look pixelated */
    clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0,
@@ -364,62 +388,67 @@ p{
         4px calc(100% - 4px), 4px calc(100% - 8px),
         0 calc(100% - 8px)
     );
-    transition:0.3s
+    transition:0.3s;
 }
 
+/* this opens the second curtain */
 .parda2:hover {
     width: 28px;
     left: 647px;
 }
 
+/* this is the first part of the cloud */
 .cloud1{
     width:30px;
     height:15px;
-    border-radius:10px ;
+    border-radius:10px;
     background-color: rgb(252, 241, 241);
     margin-left:19px;
     margin-top:6px;
+    /* this make the cloud look pixelated */
     clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
         100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
         8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
     );
-
 }
 
+/* this is the second part of the cloud */
 .cloud2{
     width:30px;
     height:15px;
-    border-radius:10px ;
+    border-radius:10px;
     background-color: rgb(252, 241, 241);
     margin-left:40px;
     margin-top:6px;
+    /* this make the cloud look pixelated */
     clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
         100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
         8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
     );
-
 }
 
+/* this is the third part of the cloud */
 .cloud3{
     width:30px;
     height:15px;
-    border-radius:10px ;
+    border-radius:10px;
     background-color: rgb(252, 241, 241);
     margin-left:75px;
     margin-top:6px;
+    /* this make the cloud look pixelated */
     clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
         100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
         8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
     );
-
 }
 
+/* this is the dog's food bowl */
 .bowl{
     width:40px;
     height:30px;
@@ -427,6 +456,7 @@ p{
     position: absolute;
     top:540px;
     left:800px;
+    /* this make the bowl look pixelated */
     clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
@@ -434,28 +464,28 @@ p{
         8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
     );  
     border-radius: 39px;
-    font-size:10px
+    font-size:10px;
 }
 
+/* this is the top part of the bowl */
 .top{
     width:40px;
     height:60px;
     background-color: #7d5259;
-
 }
 
+/* this moves the bowl when i hover */
 .bowl:hover{
-    top:535px
+    top:535px;
 }
 
-
+/* this is the carpet */
 .carpet{
     width:350px;
     height:260px;
     background: repeating-linear-gradient(90deg,
         #eceed5 0 6px,
         #d2d1a9 6px 12px);  
-
     border-radius:250px;  
     position: absolute;
     top:54%;
@@ -463,14 +493,17 @@ p{
     border:4px solid #89a68f;
 }
 
+/* this is the first toy */
 .toy1{
-    font-size:25px
+    font-size:25px;
 }
 
+/* this is the second toy */
 .toy2{
-    font-size:29px
+    font-size:29px;
 }
 
+/* this is the dog's bed */
 .dobed{
     width:100px;
     height:80px;
@@ -478,24 +511,26 @@ p{
     border:4px solid rgb(146, 107, 107);
     border-radius:10px;
     margin-left:20px;
-   clip-path: polygon(
+    /* this make the bed look pixelated */
+    clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
         100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
-        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)  
-
-   );    
+        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+    );    
 }
 
+/* this is the pillow on the dog's bed */
 .pilo1{
     width:30px;
     height:30px;
     background-color: white;
     margin-top:30px;
     border-radius:10px;
-    border:2px solid rgb(152, 117, 117)
+    border:2px solid rgb(152, 117, 117);
 }
 
+/* this is the place where i keep the toys and food */
 .stack{
     width:75px;
     height: 170px;
@@ -504,13 +539,15 @@ p{
     position:absolute;
     top:66%;
     left:90%;
-    border-radius:15px
+    border-radius:15px;
 }
 
+/* this is the food */
 .food{
-    font-size:20px
+    font-size:20px;
 }
 
+/* this is my dog */
 .dog {
     width: 75px;
     height: 78px;
@@ -525,18 +562,19 @@ p{
     z-index: 10;
 }
 
-
+/* this makes the toys and food draggable */
 .toy1, .toy2, .food {
     cursor: grab;
     touch-action: none;
     user-select: none;
 }
 
+/* this changes the cursor when i drag the toys and food */
 .toy1:active, .toy2:active, .food:active {
     cursor: grabbing;
 }
 
-
+/* this is my girl character */
 .person {
     width: 63px;
     height: 90px;
@@ -548,9 +586,9 @@ p{
     cursor: grab;
     touch-action: none;
     z-index: 20;
-
 }
 
+/* this is my girl image */
 .girl {
     background-image: url("images/girl.png");
     top: 10%;
