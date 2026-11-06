@@ -2,7 +2,7 @@
 
 body{
     text-align:center;
-    background-color: #def4ff;
+    background-color: #ceebfa;
     font-family: 'Silkscreen', sans-serif;    
 }
 
@@ -512,8 +512,8 @@ p{
 }
 
 .dog {
-    width: 60px;
-    height: 62px;
+    width: 75px;
+    height: 78px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -523,4 +523,36 @@ p{
     -webkit-user-drag: none;
     image-rendering: pixelated;
     z-index: 10;
+}
+
+
+.toy1, .toy2, .food {
+    cursor: grab;
+    touch-action: none;
+    user-select: none;
+}
+
+.toy1:active, .toy2:active, .food:active {
+    cursor: grabbing;
+}
+
+
+.person {
+    width: 63px;
+    height: 90px;
+    position: absolute;
+    background-size: 240px 360px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    cursor: grab;
+    touch-action: none;
+    z-index: 20;
+
+}
+
+.girl {
+    background-image: url("images/girl.png");
+    top: 10%;
+    left: 22%;
 }
